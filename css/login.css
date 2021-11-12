@@ -1,0 +1,10 @@
+body {
+    background-image: url('../Image/airbnb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 300px 0px;
+    margin-left: -50px;
+    color: blue;
+    font-family: 'Cinzel', serif;
+}

@@ -1,0 +1,136 @@
+
+body p{
+    font-family: 'Libre Franklin', sans-serif;
+}
+/* PHAN 1: HEADER*/
+#header{
+    padding: 3% 3%;
+    }
+    #header .row .col{
+    display: inline;
+}
+@media (max-width: 992px) {
+    #header{
+        background-color: darkslategrey;
+        
+    }
+    #header a{
+        font-size: 1.7vw;
+        padding: 0% 1%;
+        color: white;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        text-transform: uppercase;
+        text-decoration: none;}
+    }
+    #header div:first-child a{
+        margin-left: 15%;
+    }
+    #header div:nth-child(3) a{
+        margin-left: 15%;
+    }
+
+@media (min-width: 992px){
+    #header a{
+        font-size: 1vw;
+        color: grey;
+        text-transform: uppercase;
+        text-decoration: none;}
+    .col:first-child{
+        padding-left: 8%;}
+    .col:nth-child(3){
+        padding-left: 8%;}
+    }
+#header a:hover{
+        background-color: turquoise;}
+
+/* PHAN 2: BANNER*/
+
+#banner{
+    position: relative;
+    height: 150px;
+}
+@media (min-width: 992px){
+    #banner{
+        background-image: url("../image/banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    .heading1{
+        color: white;
+        font-family: 'Arvo', serif;}
+    #heading{
+        position: absolute;
+        top: 35%;
+        left: 4%;
+}
+@media (max-width: 991.9px) and (min-width: 768px){
+    #banner{
+        margin-left: 4%;
+        box-sizing: border-box;
+        border-bottom: rgb(31, 30, 30) solid 0.75px;
+    }
+}
+
+}
+/* PHAN 3: CONTENT*/
+
+.heading1>h1{
+    font-size: 3vw;
+}
+.heading1>p{
+    font-size: 1.3vw;
+}
+@media (max-width:991.9px){
+    #content1,#content2{
+        margin: 50px 4%;}
+    #heading{
+        margin: 80px 6%;}
+    #heading h1{
+        font-size: 28px;}
+    #heading p{
+        font-size: 15px;}
+}
+
+@media (min-width: 992px){
+    h1, h2, h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    }
+    #content1{
+    background-color: gainsboro;
+    padding: 3% 4%;}
+    #content2{
+    background-color: gainsboro;
+    padding-left: 4%;}
+}
+
+.col2 img{
+    display: block;
+    width: 100%;
+    height: auto;   
+    margin-bottom: 8%;
+}
+/*PHAN 4: FOOTER*/
+@media (min-width: 992px){
+    #footer1{        
+    background-color: whitesmoke;
+    height: auto;
+    padding: 3% 4%;}
+    .footer h3{
+    font-family: 'Roboto Slab', serif;
+    padding: 2% 3% 2% 0%;}   
+    .footer a,p{
+    font-size: 80%;
+    padding: 2% 1% 2% 0%;}
+    .footer:nth-child(2){
+    position: relative;
+    left: 1%;}
+    .footer:last-child{
+    position:relative;
+    left: 2%;}
+}
+@media (max-width: 991.9px){
+    .footer{
+        margin: 2% 6%;}}
